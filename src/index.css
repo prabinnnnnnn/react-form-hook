@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: 'inter';
+  font-family: sans-serif;
+}
+
+
+input.number-to-text::-webkit-outer-spin-button,
+input.number-to-text::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number].number-to-text {
+  -moz-appearance: textfield;
+}
+
+
+button:disabled.disable {
+  background-color: #38bdf8;
+  opacity: 0.9;
+  cursor: not-allowed;
+}
